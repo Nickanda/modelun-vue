@@ -1,0 +1,26 @@
+{
+  "name": "modelun-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "nuxt": "^2.15.3",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickanda/modelun-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nickanda/modelun-vue/issues"
+  },
+  "homepage": "https://github.com/Nickanda/modelun-vue#readme"
+}
