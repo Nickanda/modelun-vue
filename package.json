@@ -28,7 +28,9 @@
 
     "start:firebase": "firebase serve --only functions,hosting",
 
-    "deploy": "firebase deploy --only functions,hosting"
+    "deploy": "firebase deploy --only functions,hosting",
+
+    "start": "yarn build:firebase && yarn deploy"
   },
   "repository": {
     "type": "git",
