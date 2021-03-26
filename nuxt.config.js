@@ -1,4 +1,11 @@
 export default {
+  srcDir: 'src',
+  buildDir: 'functions/.nuxt',
+
+  build: {
+    extractCSS: true,
+  },
+
   head: {
     title: "Seekonk Model UN",
     meta: [
@@ -25,6 +32,9 @@ export default {
 
   modules: [
     "@nuxtjs/vuetify",
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    // "@nuxtjs/onesignal",
+    // "@nuxtjs/pwa",
+    // "@nuxtjs/firebase"
   ]
 }
