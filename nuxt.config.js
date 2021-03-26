@@ -29,13 +29,20 @@ export default {
   publicRuntimeConfig: {
     axios: {
       baseURL: 'https://websiteurl.com'
+    },
+    googleAnalytics: {
+      id: settings.googleAnalytics
     }
   },
+
+  buildModules: [
+    "@nuxtjs/google-analytics"
+  ],
 
   modules: [
     "@nuxtjs/vuetify",
     "@nuxtjs/axios",
-    "@nuxtjs/firebase"
+    "@nuxtjs/firebase",
   ],
 
   firebase: {
@@ -56,5 +63,9 @@ export default {
       functions: true,
       messaging: true
     }
+  },
+
+  googleAnalytics: {
+    id: settings.googleAnalytics
   },
 }
