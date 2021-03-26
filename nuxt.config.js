@@ -35,8 +35,6 @@ export default {
   modules: [
     "@nuxtjs/vuetify",
     "@nuxtjs/axios",
-    // "@nuxtjs/onesignal",
-    // "@nuxtjs/pwa",
     "@nuxtjs/firebase"
   ],
 
@@ -58,5 +56,5 @@ export default {
       functions: true,
       messaging: true
     }
-  }
+  },
 }
