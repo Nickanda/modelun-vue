@@ -24,8 +24,8 @@
     "copy:nuxt": "mkdir public/_nuxt && cp -r functions/.nuxt/dist/* public/_nuxt",
     "copy:static": "cp -r src/static/* public",
     "start:firebase": "firebase serve --only functions,hosting",
+    "start:vue": "nuxt build && nuxt start",
     "deploy": "firebase deploy --only functions,hosting",
-    "deploystart": "nuxt build && nuxt start",
     "start": "yarn build:firebase && yarn deploy"
   },
   "repository": {
