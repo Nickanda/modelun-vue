@@ -29,7 +29,7 @@
     </v-img>
 
     <v-container>
-      <p class="text-center">nicole is very estupido</p>
+      <p class="text-center">general content here...</p>
     </v-container>
   </v-container>
 </template>
