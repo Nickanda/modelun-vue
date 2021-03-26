@@ -8324,12 +8324,12 @@ var defaultvue_type_template_id_1cbe31f1_staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/layouts/default.vue?vue&type=template&id=1cbe31f1&
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Footer.vue?vue&type=template&id=b8b0eb5e&
-var Footervue_type_template_id_b8b0eb5e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-footer',{attrs:{"dark":"","padless":""}},[_c('v-col',{staticClass:"text-center",attrs:{"cols":"12"}},[_vm._v("\n    "+_vm._s(new Date().getFullYear())+" — "),_c('strong',[_vm._v("Made by Nicholas Yang")]),_vm._v(" - "),_c('a',{attrs:{"href":"https://github.com/Nickanda/modelun-vue"}},[_vm._v("(Open Source)")])])],1)}
-var Footervue_type_template_id_b8b0eb5e_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Footer.vue?vue&type=template&id=30e4ea23&
+var Footervue_type_template_id_30e4ea23_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-footer',{attrs:{"dark":"","padless":""}},[_c('v-col',{staticClass:"text-center",attrs:{"cols":"12"}},[_vm._v("\n    "+_vm._s(new Date().getFullYear())+" — "),_c('strong',[_vm._v("Made by Nicholas Yang")]),_vm._v(" -\n    "),_c('a',{attrs:{"href":"https://github.com/Nickanda/modelun-vue","target":"_blank"}},[_vm._v("(Open Source)")])])],1)}
+var Footervue_type_template_id_30e4ea23_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Footer.vue?vue&type=template&id=b8b0eb5e&
+// CONCATENATED MODULE: ./src/components/Footer.vue?vue&type=template&id=30e4ea23&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Footer.vue?vue&type=script&lang=js&
 //
@@ -8993,8 +8993,8 @@ function applicationable(value, events = []) {
 
 var Footer_component = Object(componentNormalizer["a" /* default */])(
   components_Footervue_type_script_lang_js_,
-  Footervue_type_template_id_b8b0eb5e_render,
-  Footervue_type_template_id_b8b0eb5e_staticRenderFns,
+  Footervue_type_template_id_30e4ea23_render,
+  Footervue_type_template_id_30e4ea23_staticRenderFns,
   false,
   null,
   null,

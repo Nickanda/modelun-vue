@@ -8,12 +8,12 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/index.vue?vue&type=template&id=51aa27af&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',{attrs:{"fluid":""}},[_c('v-img',{staticStyle:{"height":"90vh"},attrs:{"src":"https://knowlab.in/wp-content/uploads/2019/11/mun-20193-compressor-1.jpg"}},[_c('v-container',{staticClass:"x-ctn",attrs:{"fill-height":"","fluid":""}},[_c('v-row',{staticClass:"x-row flex-column",attrs:{"justify":"center"}},[_c('div',{staticClass:"text-h1 white--text text-center",staticStyle:{"-webkit-text-stroke-width":"3px","-webkit-text-stroke-color":"#000"}},[_vm._v("\n          Seekonk Model UN\n        ")]),_vm._v(" "),_c('div',{staticClass:"text-h4 white--text text-center",staticStyle:{"-webkit-text-stroke-width":"2px","-webkit-text-stroke-color":"#000"}},[_vm._v("\n          Coming soon...\n        ")])])],1)],1),_vm._v(" "),_c('v-container',[_c('p',{staticClass:"text-center"},[_vm._v("general content here...")])])],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/index.vue?vue&type=template&id=584dd4bc&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',{attrs:{"fluid":""}},[_c('v-img',{staticStyle:{"height":"90vh"},attrs:{"src":"/landing-background.jpg"}},[_c('v-container',{staticClass:"x-ctn",attrs:{"fill-height":"","fluid":""}},[_c('v-row',{staticClass:"x-row flex-column",attrs:{"justify":"center"}},[_c('div',{staticClass:"text-h1 white--text text-center",staticStyle:{"-webkit-text-stroke-width":"3px","-webkit-text-stroke-color":"#000"}},[_vm._v("\n          Seekonk Model UN\n        ")]),_vm._v(" "),_c('div',{staticClass:"text-h4 white--text text-center",staticStyle:{"-webkit-text-stroke-width":"2px","-webkit-text-stroke-color":"#000"}},[_vm._v("\n          Coming soon...\n        ")])])],1)],1),_vm._v(" "),_c('v-container',[_c('p',{staticClass:"text-center"},[_vm._v("general content here...")])])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/pages/index.vue?vue&type=template&id=51aa27af&
+// CONCATENATED MODULE: ./src/pages/index.vue?vue&type=template&id=584dd4bc&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/index.vue?vue&type=script&lang=js&
 //

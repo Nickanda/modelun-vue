@@ -1,3 +1,5 @@
+const settings = require('./settings.json');
+
 export default {
   srcDir: 'src',
   buildDir: 'functions/.nuxt',
@@ -35,6 +37,26 @@ export default {
     "@nuxtjs/axios",
     // "@nuxtjs/onesignal",
     // "@nuxtjs/pwa",
-    // "@nuxtjs/firebase"
-  ]
+    "@nuxtjs/firebase"
+  ],
+
+  firebase: {
+    config: {
+      apiKey: settings.firebase.apiKey,
+      authDomain: settings.firebase.authDomain,
+      databaseURL: settings.firebase.databaseURL,
+      projectId: settings.firebase.projectId,
+      storageBucket: settings.firebase.storageBucket,
+      messagingSenderId: settings.firebase.messagingSenderId,
+      appId: settings.firebase.appId,
+      measurementId: settings.firebase.measurementId
+    },
+    services: {
+      analytics: true,
+      auth: true,
+      database: true,
+      functions: true,
+      messaging: true
+    }
+  }
 }
