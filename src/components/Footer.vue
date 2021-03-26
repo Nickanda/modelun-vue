@@ -4,7 +4,7 @@
       class="text-center"
       cols="12"
     >
-      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      {{ new Date().getFullYear() }} — <strong>Made by Nicholas Yang</strong> - <a href="https://github.com/Nickanda/modelun-vue">(Open Source)</a>
     </v-col>
   </v-footer>
 </template>
