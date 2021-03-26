@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-img
-      src="https://knowlab.in/wp-content/uploads/2019/11/mun-20193-compressor-1.jpg"
+      src="/landing-background.jpg"
       style="height: 90vh"
     >
       <v-container fill-height fluid class="x-ctn">
