@@ -3,12 +3,15 @@
     <v-row class="col-7">
       <v-img
         src="/landing-background.jpg"
-        class="col-7 d-xs-none d-sm-none"
         style="height: 95vh"
       />
     </v-row>
     <v-row class="col-5">
-      <div class="text-h1">Sign in with your Google Account.</div>
+      <div class="text-h3">Sign in with your Google Account.</div>
+      <v-btn class="mr-2" v-on:click="socialLogin" primary>
+        <v-icon>mdi-google</v-icon>
+        Sign in with Google.
+      </v-btn>
     </v-row>
   </v-container>
 </template>
@@ -19,5 +22,17 @@ export default {
   layout: "login",
 
   data: () => ({}),
+
+  methods: {
+    async socialLogin() {
+      const provider = new this.$fireModule.auth.GoogleAuthProvider();
+
+      this.$fire.auth.signInWithPopup(provider).then(res => {
+        this.$router.replace("/dashboard");
+      }).catch(err => {
+        console.log(err);
+      })
+    }
+  }
 };
 </script>
