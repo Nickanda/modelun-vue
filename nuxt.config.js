@@ -24,7 +24,10 @@ export default {
 
   css: [],
 
-  plugins: [],
+  plugins: [
+    "~/plugins/firebase.js",
+    "~/plugins/fireauth.js"
+  ],
 
   publicRuntimeConfig: {
     axios: {
@@ -35,27 +38,20 @@ export default {
     }
   },
 
+  router: {
+    middleware: 'router-auth'
+  },
+
   buildModules: [
     "@nuxtjs/google-analytics"
   ],
 
   modules: [
     "@nuxtjs/vuetify",
-    "@nuxtjs/axios",
-    "@nuxtjs/firebase",
+    "@nuxtjs/axios"
   ],
 
   firebase: {
-    config: {
-      apiKey: settings.firebase.apiKey,
-      authDomain: settings.firebase.authDomain,
-      databaseURL: settings.firebase.databaseURL,
-      projectId: settings.firebase.projectId,
-      storageBucket: settings.firebase.storageBucket,
-      messagingSenderId: settings.firebase.messagingSenderId,
-      appId: settings.firebase.appId,
-      measurementId: settings.firebase.measurementId
-    },
     services: {
       analytics: true,
       auth: true,

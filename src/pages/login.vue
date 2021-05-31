@@ -1,14 +1,11 @@
 <template>
-  <v-container fluid>
-    <v-row class="col-7">
-      <v-img
-        src="/landing-background.jpg"
-        style="height: 95vh"
-      />
+  <v-container fluid class="d-flex">
+    <v-row class="col-9">
+      <v-img src="/landing-background.jpg" style="height: 95vh" />
     </v-row>
-    <v-row class="col-5">
-      <div class="text-h3">Sign in with your Google Account.</div>
-      <v-btn class="mr-2" v-on:click="socialLogin" primary>
+    <v-row class="col-3">
+      <div class="text-h3">Sign in</div>
+      <v-btn class="mr-2" v-on:click="socialLogin" theme="primary">
         <v-icon>mdi-google</v-icon>
         Sign in with Google.
       </v-btn>
@@ -25,14 +22,21 @@ export default {
 
   methods: {
     async socialLogin() {
-      const provider = new this.$fireModule.auth.GoogleAuthProvider();
+      if (!this.authenticatedUser) {
+        const provider = new this.$fireModule.auth.GoogleAuthProvider();
 
-      this.$fire.auth.signInWithPopup(provider).then(res => {
-        this.$router.replace("/dashboard");
-      }).catch(err => {
-        console.log(err);
-      })
-    }
-  }
+        this.$fire.auth
+          .signInWithPopup(provider)
+          .then((res) => {
+            this.$router.replace("/dashboard");
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      } else {
+        console.log(this.authenticatedUser);
+      }
+    },
+  },
 };
 </script>

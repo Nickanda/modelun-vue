@@ -68,6 +68,9 @@ export default {
     Footer,
   },
 
-  data: () => ({}),
+  data: () => ({
+    drawer: false,
+    group: null
+  }),
 };
 </script>
